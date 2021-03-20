@@ -1,5 +1,6 @@
 	h2{
-		text-decoration: underline green;
+		text-decoration: underline orange;
+		margin: 20px;
 	}
 	p{ 
 		font-size: 20px; font-style: bold; 
@@ -7,29 +8,42 @@
 	body{
 		background-color: beige;
 	}
+	nav{
+		margin:20px;
+	}
+	nav:hover{
+		background-color:blue;
+	}
 	a{
 		color:purple;
 	}
 	table, th, td{
 		display:fixed;
-		border: 5px solid gold;
+		border: 5px solid brown;
 		background-color: white;
+		color:blue;
 		margin:20px;
-		width:30%;
+		width:45%;
 	}
 
 	form{
 		padding: 15px;
 		border-style: solid;
-		background-color: gold;
-		width:30%;
+		color:white;
+		background-color: brown;
+		width:45%;
 		font-weight:900px;
 		margin: 20px;
 	}
 	#change{
 		font-style: italic;
-		font-size:16px;
+		font-size:24px;
 		font-weight: 300px;
+		width:45%;
+		margin:20px;
+		color:blue;
+		background-color: orange;
+		text-decoration: underline overline dotted;
 	}
 	.img{
 		display:flex;
@@ -38,15 +52,22 @@
 	}
 	.video{
 		display:flex;
-		justify-content:left;
-		align-items: center;
-		padding:10%;
+		justify-content:center;
+		align-items:center;
+		padding:15%%;
 	}
-.vertical{
+	.vertical{
 	border: 1px solid black;
 	border-collapse:collapse;
 }
-.vertical + th, td{
+	.vertical + th, td{
 	padding: 5px;
 	text-align:left;
+}
+	.listed{
+	font-style:bold;
+	font-size: 16px;
+	text-decoration: underline overline dotted brown;
+	color:white;
+	background-color: blue;
 }
